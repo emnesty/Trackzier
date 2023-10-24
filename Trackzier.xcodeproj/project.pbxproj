@@ -14,6 +14,10 @@
 		C068AFBB2AE7458D0012130E /* TrackzierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFBA2AE7458D0012130E /* TrackzierTests.swift */; };
 		C068AFC52AE7458D0012130E /* TrackzierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFC42AE7458D0012130E /* TrackzierUITests.swift */; };
 		C068AFC72AE7458D0012130E /* TrackzierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFC62AE7458D0012130E /* TrackzierUITestsLaunchTests.swift */; };
+		C068AFE22AE74BCB0012130E /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C068AFDE2AE74BCB0012130E /* Inter-Regular.ttf */; };
+		C068AFE32AE74BCB0012130E /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C068AFDF2AE74BCB0012130E /* Inter-Medium.ttf */; };
+		C068AFE42AE74BCB0012130E /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C068AFE02AE74BCB0012130E /* Inter-Bold.ttf */; };
+		C068AFE52AE74BCB0012130E /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C068AFE12AE74BCB0012130E /* Inter-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,11 @@
 		C068AFC02AE7458D0012130E /* TrackzierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackzierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C068AFC42AE7458D0012130E /* TrackzierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackzierUITests.swift; sourceTree = "<group>"; };
 		C068AFC62AE7458D0012130E /* TrackzierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackzierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C068AFDE2AE74BCB0012130E /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		C068AFDF2AE74BCB0012130E /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		C068AFE02AE74BCB0012130E /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		C068AFE12AE74BCB0012130E /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		C068AFE62AE74BEF0012130E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +103,13 @@
 		C068AFA82AE7458B0012130E /* Trackzier */ = {
 			isa = PBXGroup;
 			children = (
+				C068AFE62AE74BEF0012130E /* Info.plist */,
+				C068AFD92AE7494F0012130E /* UICommon */,
+				C068AFD82AE749470012130E /* Common */,
+				C068AFD72AE749370012130E /* Model */,
+				C068AFD62AE7492A0012130E /* ViewModel */,
+				C068AFD42AE7490F0012130E /* View */,
+				C068AFD32AE748FD0012130E /* Font */,
 				C068AFA92AE7458B0012130E /* TrackzierApp.swift */,
 				C068AFAB2AE7458B0012130E /* ContentView.swift */,
 				C068AFAD2AE7458D0012130E /* Assets.xcassets */,
@@ -125,6 +141,76 @@
 				C068AFC62AE7458D0012130E /* TrackzierUITestsLaunchTests.swift */,
 			);
 			path = TrackzierUITests;
+			sourceTree = "<group>";
+		};
+		C068AFD32AE748FD0012130E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C068AFE02AE74BCB0012130E /* Inter-Bold.ttf */,
+				C068AFDF2AE74BCB0012130E /* Inter-Medium.ttf */,
+				C068AFDE2AE74BCB0012130E /* Inter-Regular.ttf */,
+				C068AFE12AE74BCB0012130E /* Inter-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		C068AFD42AE7490F0012130E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C068AFDD2AE749CF0012130E /* MainTab */,
+				C068AFDC2AE7496E0012130E /* Home */,
+				C068AFDA2AE749590012130E /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C068AFD62AE7492A0012130E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C068AFD72AE749370012130E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C068AFD82AE749470012130E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C068AFD92AE7494F0012130E /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		C068AFDA2AE749590012130E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C068AFDC2AE7496E0012130E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C068AFDD2AE749CF0012130E /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +317,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C068AFE52AE74BCB0012130E /* Inter-SemiBold.ttf in Resources */,
+				C068AFE32AE74BCB0012130E /* Inter-Medium.ttf in Resources */,
+				C068AFE42AE74BCB0012130E /* Inter-Bold.ttf in Resources */,
 				C068AFB12AE7458D0012130E /* Preview Assets.xcassets in Resources */,
+				C068AFE22AE74BCB0012130E /* Inter-Regular.ttf in Resources */,
 				C068AFAE2AE7458D0012130E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +509,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Trackzier/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trackzier/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +538,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Trackzier/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trackzier/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
