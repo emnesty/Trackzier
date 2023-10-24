@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C068AFAA2AE7458B0012130E /* TrackzierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFA92AE7458B0012130E /* TrackzierApp.swift */; };
-		C068AFAC2AE7458B0012130E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFAB2AE7458B0012130E /* ContentView.swift */; };
 		C068AFAE2AE7458D0012130E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C068AFAD2AE7458D0012130E /* Assets.xcassets */; };
 		C068AFB12AE7458D0012130E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C068AFB02AE7458D0012130E /* Preview Assets.xcassets */; };
 		C068AFBB2AE7458D0012130E /* TrackzierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFBA2AE7458D0012130E /* TrackzierTests.swift */; };
@@ -18,6 +17,8 @@
 		C068AFE32AE74BCB0012130E /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C068AFDF2AE74BCB0012130E /* Inter-Medium.ttf */; };
 		C068AFE42AE74BCB0012130E /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C068AFE02AE74BCB0012130E /* Inter-Bold.ttf */; };
 		C068AFE52AE74BCB0012130E /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C068AFE12AE74BCB0012130E /* Inter-SemiBold.ttf */; };
+		C068AFE82AE811250012130E /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFE72AE811250012130E /* UIExtension.swift */; };
+		C068AFEA2AE827EE0012130E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFE92AE827EE0012130E /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 /* Begin PBXFileReference section */
 		C068AFA62AE7458B0012130E /* Trackzier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackzier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C068AFA92AE7458B0012130E /* TrackzierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackzierApp.swift; sourceTree = "<group>"; };
-		C068AFAB2AE7458B0012130E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C068AFAD2AE7458D0012130E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C068AFB02AE7458D0012130E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C068AFB62AE7458D0012130E /* TrackzierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackzierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +53,8 @@
 		C068AFE02AE74BCB0012130E /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
 		C068AFE12AE74BCB0012130E /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		C068AFE62AE74BEF0012130E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C068AFE72AE811250012130E /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		C068AFE92AE827EE0012130E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,6 @@
 				C068AFD42AE7490F0012130E /* View */,
 				C068AFD32AE748FD0012130E /* Font */,
 				C068AFA92AE7458B0012130E /* TrackzierApp.swift */,
-				C068AFAB2AE7458B0012130E /* ContentView.swift */,
 				C068AFAD2AE7458D0012130E /* Assets.xcassets */,
 				C068AFAF2AE7458D0012130E /* Preview Content */,
 			);
@@ -188,6 +189,7 @@
 		C068AFD92AE7494F0012130E /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
+				C068AFE72AE811250012130E /* UIExtension.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -195,6 +197,7 @@
 		C068AFDA2AE749590012130E /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				C068AFE92AE827EE0012130E /* WelcomeView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -347,7 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C068AFAC2AE7458B0012130E /* ContentView.swift in Sources */,
+				C068AFE82AE811250012130E /* UIExtension.swift in Sources */,
+				C068AFEA2AE827EE0012130E /* WelcomeView.swift in Sources */,
 				C068AFAA2AE7458B0012130E /* TrackzierApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
