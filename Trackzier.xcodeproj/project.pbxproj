@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C068AFAA2AE7458B0012130E /* TrackzierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFA92AE7458B0012130E /* TrackzierApp.swift */; };
+		C068AFAC2AE7458B0012130E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFAB2AE7458B0012130E /* ContentView.swift */; };
+		C068AFAE2AE7458D0012130E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C068AFAD2AE7458D0012130E /* Assets.xcassets */; };
+		C068AFB12AE7458D0012130E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C068AFB02AE7458D0012130E /* Preview Assets.xcassets */; };
+		C068AFBB2AE7458D0012130E /* TrackzierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFBA2AE7458D0012130E /* TrackzierTests.swift */; };
+		C068AFC52AE7458D0012130E /* TrackzierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFC42AE7458D0012130E /* TrackzierUITests.swift */; };
+		C068AFC72AE7458D0012130E /* TrackzierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068AFC62AE7458D0012130E /* TrackzierUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C068AFB72AE7458D0012130E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C068AF9E2AE7458B0012130E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C068AFA52AE7458B0012130E;
+			remoteInfo = Trackzier;
+		};
+		C068AFC12AE7458D0012130E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C068AF9E2AE7458B0012130E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C068AFA52AE7458B0012130E;
+			remoteInfo = Trackzier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C068AFA62AE7458B0012130E /* Trackzier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackzier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C068AFA92AE7458B0012130E /* TrackzierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackzierApp.swift; sourceTree = "<group>"; };
+		C068AFAB2AE7458B0012130E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C068AFAD2AE7458D0012130E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C068AFB02AE7458D0012130E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C068AFB62AE7458D0012130E /* TrackzierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackzierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C068AFBA2AE7458D0012130E /* TrackzierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackzierTests.swift; sourceTree = "<group>"; };
+		C068AFC02AE7458D0012130E /* TrackzierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackzierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C068AFC42AE7458D0012130E /* TrackzierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackzierUITests.swift; sourceTree = "<group>"; };
+		C068AFC62AE7458D0012130E /* TrackzierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackzierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C068AFA32AE7458B0012130E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C068AFB32AE7458D0012130E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C068AFBD2AE7458D0012130E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C068AF9D2AE7458B0012130E = {
+			isa = PBXGroup;
+			children = (
+				C068AFA82AE7458B0012130E /* Trackzier */,
+				C068AFB92AE7458D0012130E /* TrackzierTests */,
+				C068AFC32AE7458D0012130E /* TrackzierUITests */,
+				C068AFA72AE7458B0012130E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C068AFA72AE7458B0012130E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C068AFA62AE7458B0012130E /* Trackzier.app */,
+				C068AFB62AE7458D0012130E /* TrackzierTests.xctest */,
+				C068AFC02AE7458D0012130E /* TrackzierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C068AFA82AE7458B0012130E /* Trackzier */ = {
+			isa = PBXGroup;
+			children = (
+				C068AFA92AE7458B0012130E /* TrackzierApp.swift */,
+				C068AFAB2AE7458B0012130E /* ContentView.swift */,
+				C068AFAD2AE7458D0012130E /* Assets.xcassets */,
+				C068AFAF2AE7458D0012130E /* Preview Content */,
+			);
+			path = Trackzier;
+			sourceTree = "<group>";
+		};
+		C068AFAF2AE7458D0012130E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C068AFB02AE7458D0012130E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C068AFB92AE7458D0012130E /* TrackzierTests */ = {
+			isa = PBXGroup;
+			children = (
+				C068AFBA2AE7458D0012130E /* TrackzierTests.swift */,
+			);
+			path = TrackzierTests;
+			sourceTree = "<group>";
+		};
+		C068AFC32AE7458D0012130E /* TrackzierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C068AFC42AE7458D0012130E /* TrackzierUITests.swift */,
+				C068AFC62AE7458D0012130E /* TrackzierUITestsLaunchTests.swift */,
+			);
+			path = TrackzierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C068AFA52AE7458B0012130E /* Trackzier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C068AFCA2AE7458D0012130E /* Build configuration list for PBXNativeTarget "Trackzier" */;
+			buildPhases = (
+				C068AFA22AE7458B0012130E /* Sources */,
+				C068AFA32AE7458B0012130E /* Frameworks */,
+				C068AFA42AE7458B0012130E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trackzier;
+			productName = Trackzier;
+			productReference = C068AFA62AE7458B0012130E /* Trackzier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C068AFB52AE7458D0012130E /* TrackzierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C068AFCD2AE7458D0012130E /* Build configuration list for PBXNativeTarget "TrackzierTests" */;
+			buildPhases = (
+				C068AFB22AE7458D0012130E /* Sources */,
+				C068AFB32AE7458D0012130E /* Frameworks */,
+				C068AFB42AE7458D0012130E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C068AFB82AE7458D0012130E /* PBXTargetDependency */,
+			);
+			name = TrackzierTests;
+			productName = TrackzierTests;
+			productReference = C068AFB62AE7458D0012130E /* TrackzierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C068AFBF2AE7458D0012130E /* TrackzierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C068AFD02AE7458D0012130E /* Build configuration list for PBXNativeTarget "TrackzierUITests" */;
+			buildPhases = (
+				C068AFBC2AE7458D0012130E /* Sources */,
+				C068AFBD2AE7458D0012130E /* Frameworks */,
+				C068AFBE2AE7458D0012130E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C068AFC22AE7458D0012130E /* PBXTargetDependency */,
+			);
+			name = TrackzierUITests;
+			productName = TrackzierUITests;
+			productReference = C068AFC02AE7458D0012130E /* TrackzierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C068AF9E2AE7458B0012130E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C068AFA52AE7458B0012130E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C068AFB52AE7458D0012130E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C068AFA52AE7458B0012130E;
+					};
+					C068AFBF2AE7458D0012130E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C068AFA52AE7458B0012130E;
+					};
+				};
+			};
+			buildConfigurationList = C068AFA12AE7458B0012130E /* Build configuration list for PBXProject "Trackzier" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C068AF9D2AE7458B0012130E;
+			productRefGroup = C068AFA72AE7458B0012130E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C068AFA52AE7458B0012130E /* Trackzier */,
+				C068AFB52AE7458D0012130E /* TrackzierTests */,
+				C068AFBF2AE7458D0012130E /* TrackzierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C068AFA42AE7458B0012130E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C068AFB12AE7458D0012130E /* Preview Assets.xcassets in Resources */,
+				C068AFAE2AE7458D0012130E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C068AFB42AE7458D0012130E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C068AFBE2AE7458D0012130E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C068AFA22AE7458B0012130E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C068AFAC2AE7458B0012130E /* ContentView.swift in Sources */,
+				C068AFAA2AE7458B0012130E /* TrackzierApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C068AFB22AE7458D0012130E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C068AFBB2AE7458D0012130E /* TrackzierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C068AFBC2AE7458D0012130E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C068AFC72AE7458D0012130E /* TrackzierUITestsLaunchTests.swift in Sources */,
+				C068AFC52AE7458D0012130E /* TrackzierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C068AFB82AE7458D0012130E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C068AFA52AE7458B0012130E /* Trackzier */;
+			targetProxy = C068AFB72AE7458D0012130E /* PBXContainerItemProxy */;
+		};
+		C068AFC22AE7458D0012130E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C068AFA52AE7458B0012130E /* Trackzier */;
+			targetProxy = C068AFC12AE7458D0012130E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C068AFC82AE7458D0012130E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C068AFC92AE7458D0012130E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C068AFCB2AE7458D0012130E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trackzier/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luciano.Trackzier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C068AFCC2AE7458D0012130E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trackzier/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luciano.Trackzier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C068AFCE2AE7458D0012130E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luciano.TrackzierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trackzier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trackzier";
+			};
+			name = Debug;
+		};
+		C068AFCF2AE7458D0012130E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luciano.TrackzierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trackzier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trackzier";
+			};
+			name = Release;
+		};
+		C068AFD12AE7458D0012130E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luciano.TrackzierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trackzier;
+			};
+			name = Debug;
+		};
+		C068AFD22AE7458D0012130E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luciano.TrackzierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trackzier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C068AFA12AE7458B0012130E /* Build configuration list for PBXProject "Trackzier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C068AFC82AE7458D0012130E /* Debug */,
+				C068AFC92AE7458D0012130E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C068AFCA2AE7458D0012130E /* Build configuration list for PBXNativeTarget "Trackzier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C068AFCB2AE7458D0012130E /* Debug */,
+				C068AFCC2AE7458D0012130E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C068AFCD2AE7458D0012130E /* Build configuration list for PBXNativeTarget "TrackzierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C068AFCE2AE7458D0012130E /* Debug */,
+				C068AFCF2AE7458D0012130E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C068AFD02AE7458D0012130E /* Build configuration list for PBXNativeTarget "TrackzierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C068AFD12AE7458D0012130E /* Debug */,
+				C068AFD22AE7458D0012130E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C068AF9E2AE7458B0012130E /* Project object */;
+}
