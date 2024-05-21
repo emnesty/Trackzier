@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B1E453822BFAE07B00FE37D9 /* TrackzierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E453812BFAE07B00FE37D9 /* TrackzierApp.swift */; };
-		B1E453842BFAE07B00FE37D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E453832BFAE07B00FE37D9 /* ContentView.swift */; };
 		B1E453862BFAE07B00FE37D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E453852BFAE07B00FE37D9 /* Assets.xcassets */; };
 		B1E453892BFAE07B00FE37D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E453882BFAE07B00FE37D9 /* Preview Assets.xcassets */; };
 		B1E453932BFAE07C00FE37D9 /* TrackzierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E453922BFAE07C00FE37D9 /* TrackzierTests.swift */; };
 		B1E4539D2BFAE07C00FE37D9 /* TrackzierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E4539C2BFAE07C00FE37D9 /* TrackzierUITests.swift */; };
 		B1E4539F2BFAE07C00FE37D9 /* TrackzierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E4539E2BFAE07C00FE37D9 /* TrackzierUITestsLaunchTests.swift */; };
+		B1E453B82BFAE27500FE37D9 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1E453B42BFAE27500FE37D9 /* Inter-Bold.ttf */; };
+		B1E453B92BFAE27500FE37D9 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1E453B52BFAE27500FE37D9 /* Inter-Regular.ttf */; };
+		B1E453BA2BFAE27500FE37D9 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1E453B62BFAE27500FE37D9 /* Inter-SemiBold.ttf */; };
+		B1E453BB2BFAE27500FE37D9 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1E453B72BFAE27500FE37D9 /* Inter-Medium.ttf */; };
+		B1E453BE2BFAE52A00FE37D9 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E453BD2BFAE52A00FE37D9 /* UIExtension.swift */; };
+		B1E453C02BFAED7700FE37D9 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E453BF2BFAED7700FE37D9 /* Welcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		B1E4537E2BFAE07B00FE37D9 /* Trackzier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackzier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E453812BFAE07B00FE37D9 /* TrackzierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackzierApp.swift; sourceTree = "<group>"; };
-		B1E453832BFAE07B00FE37D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1E453852BFAE07B00FE37D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1E453882BFAE07B00FE37D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1E4538E2BFAE07C00FE37D9 /* TrackzierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackzierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,13 @@
 		B1E453982BFAE07C00FE37D9 /* TrackzierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackzierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E4539C2BFAE07C00FE37D9 /* TrackzierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackzierUITests.swift; sourceTree = "<group>"; };
 		B1E4539E2BFAE07C00FE37D9 /* TrackzierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackzierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1E453B42BFAE27500FE37D9 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		B1E453B52BFAE27500FE37D9 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		B1E453B62BFAE27500FE37D9 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		B1E453B72BFAE27500FE37D9 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		B1E453BC2BFAE2A000FE37D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B1E453BD2BFAE52A00FE37D9 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		B1E453BF2BFAED7700FE37D9 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +105,13 @@
 		B1E453802BFAE07B00FE37D9 /* Trackzier */ = {
 			isa = PBXGroup;
 			children = (
+				B1E453BC2BFAE2A000FE37D9 /* Info.plist */,
+				B1E453AF2BFAE10F00FE37D9 /* UI Common */,
+				B1E453AE2BFAE0F900FE37D9 /* Common */,
+				B1E453AD2BFAE0D800FE37D9 /* ViewModel */,
+				B1E453AC2BFAE0C200FE37D9 /* View */,
+				B1E453AB2BFAE0A800FE37D9 /* Font */,
 				B1E453812BFAE07B00FE37D9 /* TrackzierApp.swift */,
-				B1E453832BFAE07B00FE37D9 /* ContentView.swift */,
 				B1E453852BFAE07B00FE37D9 /* Assets.xcassets */,
 				B1E453872BFAE07B00FE37D9 /* Preview Content */,
 			);
@@ -125,6 +141,71 @@
 				B1E4539E2BFAE07C00FE37D9 /* TrackzierUITestsLaunchTests.swift */,
 			);
 			path = TrackzierUITests;
+			sourceTree = "<group>";
+		};
+		B1E453AB2BFAE0A800FE37D9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B1E453B42BFAE27500FE37D9 /* Inter-Bold.ttf */,
+				B1E453B72BFAE27500FE37D9 /* Inter-Medium.ttf */,
+				B1E453B52BFAE27500FE37D9 /* Inter-Regular.ttf */,
+				B1E453B62BFAE27500FE37D9 /* Inter-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		B1E453AC2BFAE0C200FE37D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1E453B32BFAE14000FE37D9 /* Main */,
+				B1E453B22BFAE13600FE37D9 /* Home */,
+				B1E453B02BFAE11A00FE37D9 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1E453AD2BFAE0D800FE37D9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		B1E453AE2BFAE0F900FE37D9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B1E453AF2BFAE10F00FE37D9 /* UI Common */ = {
+			isa = PBXGroup;
+			children = (
+				B1E453BD2BFAE52A00FE37D9 /* UIExtension.swift */,
+			);
+			path = "UI Common";
+			sourceTree = "<group>";
+		};
+		B1E453B02BFAE11A00FE37D9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B1E453BF2BFAED7700FE37D9 /* Welcome.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B1E453B22BFAE13600FE37D9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1E453B32BFAE14000FE37D9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +312,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E453B82BFAE27500FE37D9 /* Inter-Bold.ttf in Resources */,
 				B1E453892BFAE07B00FE37D9 /* Preview Assets.xcassets in Resources */,
+				B1E453BB2BFAE27500FE37D9 /* Inter-Medium.ttf in Resources */,
+				B1E453B92BFAE27500FE37D9 /* Inter-Regular.ttf in Resources */,
+				B1E453BA2BFAE27500FE37D9 /* Inter-SemiBold.ttf in Resources */,
 				B1E453862BFAE07B00FE37D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +342,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1E453842BFAE07B00FE37D9 /* ContentView.swift in Sources */,
+				B1E453BE2BFAE52A00FE37D9 /* UIExtension.swift in Sources */,
+				B1E453C02BFAED7700FE37D9 /* Welcome.swift in Sources */,
 				B1E453822BFAE07B00FE37D9 /* TrackzierApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +511,7 @@
 				DEVELOPMENT_TEAM = X348F84F5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trackzier/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +541,7 @@
 				DEVELOPMENT_TEAM = X348F84F5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trackzier/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
