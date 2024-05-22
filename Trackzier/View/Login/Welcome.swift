@@ -14,6 +14,35 @@ struct Welcome: View {
                 .resizable()
                 .scaledToFill()
                 .frame(width: .screenWidth, height: .screenHeight)
+            
+            VStack{
+                
+                Image("app_logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: .widthPer(per: 0.5))
+                    .padding(.top, .topInsets + 8)
+                
+                Spacer()
+                
+                
+                Text("Congue malesuada in ac justo, a tristique\nleo massa. Arcu leo leo urna risus.")
+                    .multilineTextAlignment(.center)
+                    .font(.customfont(.regular, fontSize: 14))
+                    .padding(.horizontal, 20)
+                    .foregroundColor(.white)
+                    .padding(.bottom, 30)
+                
+                PrimaryButton(title: "Geet Started", onPressed: {
+                    
+                })
+                .padding(.bottom, 15)
+                
+                SecondaryButton(title: "I have an account", onPressed: {
+                    
+                })
+                .padding(.bottom, .bottomInsets)
+            }
         }
         .ignoresSafeArea()
     }
