@@ -21,7 +21,7 @@ struct SecondaryButton: View {
             // Definição do rótulo do botão
             ZStack {
                 // Empilha as subviews para formar o botão
-                Image("secondary_btn")
+                Image("secodry_btn")
                     .resizable()
                     .scaledToFit()
                     .padding(.horizontal, 20)

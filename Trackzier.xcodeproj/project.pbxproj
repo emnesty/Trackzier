@@ -18,9 +18,10 @@
 		B1E453BA2BFAE27500FE37D9 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1E453B62BFAE27500FE37D9 /* Inter-SemiBold.ttf */; };
 		B1E453BB2BFAE27500FE37D9 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1E453B72BFAE27500FE37D9 /* Inter-Medium.ttf */; };
 		B1E453BE2BFAE52A00FE37D9 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E453BD2BFAE52A00FE37D9 /* UIExtension.swift */; };
-		B1E453C02BFAED7700FE37D9 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E453BF2BFAED7700FE37D9 /* Welcome.swift */; };
 		B1E453C32BFD6DDA00FE37D9 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E453C22BFD6DDA00FE37D9 /* PrimaryButton.swift */; };
 		B1E453C72BFD702F00FE37D9 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E453C62BFD702F00FE37D9 /* SecondaryButton.swift */; };
+		C0A587842BFE5F0400EE2761 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A587832BFE5F0400EE2761 /* WelcomeView.swift */; };
+		C0A587862BFE5FA400EE2761 /* SocialSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A587852BFE5FA400EE2761 /* SocialSignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +57,10 @@
 		B1E453B72BFAE27500FE37D9 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		B1E453BC2BFAE2A000FE37D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B1E453BD2BFAE52A00FE37D9 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
-		B1E453BF2BFAED7700FE37D9 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		B1E453C22BFD6DDA00FE37D9 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		B1E453C62BFD702F00FE37D9 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		C0A587832BFE5F0400EE2761 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C0A587852BFE5FA400EE2761 /* SocialSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,7 +197,8 @@
 		B1E453B02BFAE11A00FE37D9 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				B1E453BF2BFAED7700FE37D9 /* Welcome.swift */,
+				C0A587832BFE5F0400EE2761 /* WelcomeView.swift */,
+				C0A587852BFE5FA400EE2761 /* SocialSignupView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -349,8 +352,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1E453C72BFD702F00FE37D9 /* SecondaryButton.swift in Sources */,
+				C0A587842BFE5F0400EE2761 /* WelcomeView.swift in Sources */,
 				B1E453BE2BFAE52A00FE37D9 /* UIExtension.swift in Sources */,
-				B1E453C02BFAED7700FE37D9 /* Welcome.swift in Sources */,
+				C0A587862BFE5FA400EE2761 /* SocialSignupView.swift in Sources */,
 				B1E453C32BFD6DDA00FE37D9 /* PrimaryButton.swift in Sources */,
 				B1E453822BFAE07B00FE37D9 /* TrackzierApp.swift in Sources */,
 			);

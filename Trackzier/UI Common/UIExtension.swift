@@ -147,6 +147,14 @@ extension Color {
         return .gray60
     }
     
+    struct Constants {
+      static let spacingSm: CGFloat = 6
+      static let blue600: Color = Color(red: 0.25, green: 0.46, blue: 1)
+      static let radius2Xl: CGFloat = 16
+      static let blue500: Color = Color(red: 0.4, green: 0.57, blue: 1)
+      static let spacingXl: CGFloat = 16
+    }
+    
     // Inicializador para criar uma cor a partir de um valor hexadecimal
     init(hex: String) {
         let hex = hex.trimmingCharacters(in: .alphanumerics.inverted)
