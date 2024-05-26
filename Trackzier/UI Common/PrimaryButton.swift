@@ -26,7 +26,7 @@ struct PrimaryButton: View {
             .padding(.vertical, 10)
             .frame(width: width, height: height, alignment: .center)
             .background(Color(red: 0.25, green: 0.46, blue: 1))
-            .cornerRadius(30)
+            .cornerRadius(15)
             .shadow(color: Color(red: 0.06, green: 0.09, blue: 0.16).opacity(0.05), radius: 1, x: 0, y: 1)
             .overlay(
                 RoundedRectangle(cornerRadius: 30)

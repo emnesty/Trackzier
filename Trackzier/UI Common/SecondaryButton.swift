@@ -1,43 +1,40 @@
-//
-//  SecondaryButton.swift
-//  Trackzier
-//
-//  Created by Luciano Silva on 21/05/24.
-//
-
 import SwiftUI
 
 struct SecondaryButton: View {
     // Variáveis de estado e propriedades da estrutura
-    @State var title: String = "Title"
-    var onPressed: (()->())? // Um fechamento opcional que será chamado quando o botão for pressionado
+    var title: String = "Title" // Apenas uma propriedade normal
+    var width: CGFloat = 324 // Propriedade para a largura do botão
+    var height: CGFloat = 48 // Propriedade para a altura do botão
+    var onPressed: (() -> Void)? // Um fechamento opcional que será chamado quando o botão for pressionado
 
     var body: some View {
         // Definição do conteúdo visual da estrutura
-        Button {
-            // Ação do botão, atualmente vazia
+        Button(action: {
             onPressed?() // Chama a ação onPressed se ela estiver definida
-        } label: {
-            // Definição do rótulo do botão
-            ZStack {
-                // Empilha as subviews para formar o botão
-                Image("secodry_btn")
-                    .resizable()
-                    .scaledToFit()
-                    .padding(.horizontal, 20)
-                    .frame(width: .screenWidth, height: 48)
-                
+        }) {
+            HStack(alignment: .center, spacing: 6) {
                 Text(title) // Texto exibido no botão
                     .font(.customfont(.semibold, fontSize: 14))
-                    .padding(.horizontal, 20)
+                    .foregroundColor(.white)
             }
-            .foregroundColor(.white)
-            .shadow(color: .secondaryC.opacity(0.3), radius: 5, y: 3)
+            .padding(.horizontal, 16)
+            .padding(.vertical, 10)
+            .frame(width: width, height: height, alignment: .center)
+            .background(Color(red: 0.16, green: 0.16, blue: 0.16))
+            .cornerRadius(15)
+            .shadow(color: Color(red: 0.06, green: 0.09, blue: 0.16).opacity(0.05), radius: 1, x: 0, y: 1)
+            .overlay(
+                RoundedRectangle(cornerRadius: 30)
+                    .inset(by: 0.5)
+                    .stroke(Color(red: 0.2, green: 0.22, blue: 0.25))
+            )
         }
     }
 }
 
 // Pré-visualização do botão no Xcode
-#Preview {
-    SecondaryButton()
+struct SecondaryButton_Previews: PreviewProvider {
+    static var previews: some View {
+        SecondaryButton(width: 324, height: 48)
+    }
 }
